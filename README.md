@@ -11,12 +11,16 @@ maintained anymore. The code was updated with some important changes:
 
 # Build
 
-This is the recommended way to build the package, since setuptools will take care of
-generating the `googleplay_pb2.py` file needed by the library (check the `setup.py`)
+To build this package, follow this steps:
 
-```
-$ python setup.py build
-```
+1. Download [Protocol Buffers](https://github.com/protocolbuffers/protobuf/releases) for Windows and locate the file in python excution directory.
+
+2. Install python packages in `requirements.txt`.
+
+3. Build this package.
+	```
+	$ python setup.py build
+	```
 
 # Usage
 
